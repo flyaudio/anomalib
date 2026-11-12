@@ -391,3 +391,11 @@ We welcome contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to
 <p align="center">
   <b>Thank you to all our contributors!</b>
 </p>
+
+
+
+
+这个是anomalib的文档，先阅读
+https://anomalib.readthedocs.io/en/latest/
+
+
