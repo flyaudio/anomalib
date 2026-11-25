@@ -407,7 +407,7 @@ class PatchcoreModel(DynamicBufferMixin, nn.Module):
             torch.Tensor: Image-level anomaly scores.
 
         Example:
-            >>> patch_scores = torch.randn(32, 49)  # 7x7 patches
+            >>> patch_scores = torch.randn(32, 49)  # batch, num_patches(7x7)
             >>> locations = torch.randint(0, 1000, (32, 49))
             >>> embedding = torch.randn(32 * 49, 512)
             >>> scores = model.compute_anomaly_score(patch_scores, locations,
